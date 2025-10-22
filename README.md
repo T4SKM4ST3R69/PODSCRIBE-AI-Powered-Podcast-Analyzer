@@ -33,8 +33,8 @@ PodScribe transforms audio and video files (MP4/MP3) into an intelligent, search
 1. Clone repository:
 
 ```/bash
-git clone https://github.com/T4SKM4ST3R69/podscribe.git
-cd podscribe
+git clone https://github.com/T4SKM4ST3R69/PODSCRIBE-AI-Powered-Podcast-Analyzer.git
+cd PodScribe
 ```
 
 
