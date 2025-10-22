@@ -2,6 +2,14 @@
 
 AI-powered podcast transcription and Q&A system using Retrieval-Augmented Generation (RAG)
 
+## The Challenge
+
+Extracting valuable insights from hours of podcast content is time-consuming and often inaccurate when relying on memory or manual note-taking. Traditional search methods fail to capture the semantic meaning of spoken content, making it difficult to find specific information or verify claims discussed in podcasts and video content.
+
+## The Solution
+
+PodScribe transforms audio and video files (MP4/MP3) into an intelligent, searchable knowledge base. The system processes podcast content through speaker diarization and timestamped transcription, then stores it as semantic vectors in ChromaDB. Using a RAG pipeline powered by Groq's LLM, you can ask natural language questions and receive accurate, contextually-grounded answers with source timestamps. This ensures verifiable information retrieval directly from the original content, eliminating hallucinations and providing traceable references to exact moments in the podcast.
+
 ## Features
 
 - **Multi-format Audio Processing**: Automatic MP4 to MP3 conversion
@@ -18,6 +26,7 @@ AI-powered podcast transcription and Q&A system using Retrieval-Augmented Genera
 - **LLM Integration**: Groq API
 - **Frontend**: Streamlit
 - **Data Processing**: Pandas, NumPy
+
 
 ## Installation
 
