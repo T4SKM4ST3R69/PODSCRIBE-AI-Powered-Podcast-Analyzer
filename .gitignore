@@ -1,0 +1,38 @@
+
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data files (too large for GitHub)
+data/raw_audio/*.mp3
+data/raw_audio/*.mp4
+data/converted_audio/*.mp3
+
+# Vector database (auto-generated)
+chroma_db/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/

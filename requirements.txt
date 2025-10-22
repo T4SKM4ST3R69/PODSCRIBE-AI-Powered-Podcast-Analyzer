@@ -1,0 +1,29 @@
+# Core ML & GPU
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# Audio Processing
+whisperx
+pyannote.audio
+moviepy
+pydub
+
+# Vector Database & Embeddings
+chromadb==1.1.1
+sentence-transformers
+
+# LLM & API
+groq
+python-dotenv
+
+# Data Processing
+pandas
+numpy==1.26.4
+pyarrow==15.0.2
+
+# Web Framework
+streamlit
+
+# Utilities
+transformers
